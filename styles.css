@@ -1,0 +1,246 @@
+/* START STUDY CAT */
+.start-animation {
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh; 
+}
+
+body.Functioning-Page {
+    background-image: url('assets/FunctioningBG.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh; 
+}
+
+body.Starting-Page {
+    background-image: url('assets/Cat-BG.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh; 
+}
+
+html, body {
+    overflow: hidden; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.WindowBtn {
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    width: auto;
+    top: 25px;
+    right: 39px;
+    margin: 0;
+    gap: 3px;
+    z-index: 9999;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+}
+
+.Functioning-Page .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    padding-bottom: 50px;
+    height: 100vh; 
+    width: 100%;
+}
+.AnimatedCat {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 25px;
+    padding-top: 5px;
+    position: absolute; 
+    top: 145px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+
+.TitleApp {
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 435px;
+}
+
+.StudyCat{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 50px;
+
+}
+
+.FunctioningButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 75px;
+    width: 425px;
+    height: 50px;
+}
+
+.FirstButtons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    width: 425px;
+    height: 50px;
+}
+
+.StartButton{
+    display: block;
+    position:relative;  
+}
+
+.SocialButton {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    gap: 36px; 
+    flex-wrap: wrap; 
+    max-width: 100%;
+}
+
+.SettingsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SettingsButton{
+    padding-top: 10px;
+}
+
+#StrtBtn{
+    width: 463px; 
+    height: 74px;
+    display: block;
+    position:relative;  
+}
+
+#SclBtn{
+    width: 90px;
+    height: 81px;
+}
+
+#StngsBtn{
+    width: 463px;
+    height: 74px; 
+    display: block;
+}
+
+.OGCloseClass{
+    border: none;
+    background: none;
+}
+
+.OGMinClass{
+    border: none;
+    background: none;
+}
+
+.TimerBar{
+    text-align: center;
+    margin: 5px;
+    padding-top: 100px;
+}
+
+.FunctioningDirectory {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+    overflow: hidden;
+    padding-top: 330px;
+}
+
+.OtherButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 100%;
+    gap: 10px; 
+}
+
+.MuteRestart img {
+    max-width: 83px;
+    height: auto;
+}
+
+.Pause img{
+    max-width: 83px;
+    height: auto; 
+}
+
+.StopButton img {
+    max-width: 273px;
+    height: auto;
+}
+
+
+.pixelify-sans-timer {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 75px; 
+    font-weight: bolder; 
+    -webkit-text-stroke: 2px #A98D55; 
+    font-style: normal;
+    color: aliceblue;
+}
+
+#BackButton{ 
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    z-index: 9999;
+
+}
+
+#pauseBtn{
+    border: none;
+    background: none;
+}
+
+#muteBtn{
+    border: none;
+    background: none;
+}
+
+#Mute{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    margin: 0;
+    gap: 3px;
+    z-index: 9999;
+}
